@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+#import joblib
 
 # Load the pre-trained model
 model = joblib.load('/home/kimath/Desktop/PROJECTS/Projects/INSURENCE/insurence/insur/static/random_forest_regressor')
