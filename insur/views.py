@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse
 import joblib
-model=joblib.load('/home/kimath/Projects/INSURENCE/insurence/insur/static/random_forest_regressor')
+model=joblib.load('/home/kimath/Desktop/PROJECTS/Projects/INSURENCE/insurence/insur/static/random_forest_regressor')
 # Create your views here.
 
 def index(request):
